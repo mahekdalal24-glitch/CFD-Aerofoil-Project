@@ -58,9 +58,9 @@ The **NACA 2412** has been used widely in **general aviation aircraft**.
 
 Formula:  
 
-\[
+$$
 Re = \frac{\rho V c}{\mu}
-\]
+$$
 
 Where:  
 - ρ = air density (kg/m³)  
@@ -88,5 +88,6 @@ I chose the **NACA 2412** profile because:
 - Its combination of **moderate camber** and **thickness** makes it ideal for **general aviation aircraft**.  
 - Abundant **experimental & published data** exists.  
 - I plan to compare my **CFD results** against the **Cl vs. AoA curves from Abbott & von Doenhoff’s _Theory of Wing Sections_**, ensuring benchmarking against trusted reference data.  
+
 
 ---
