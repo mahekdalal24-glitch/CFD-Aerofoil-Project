@@ -14,10 +14,6 @@ The **NACA 2412** aerofoil belongs to the **NACA 4-digit series**, created in th
 - **4** → Maximum camber located at **40% chord** (0.4c) from leading edge.  
 - **12** → Maximum thickness is **12%** of chord length.  
 
-### Summary:
-- **Camber**: 2% at 40% chord  
-- **Thickness**: 12% of chord  
-
 ---
 
 ## General Characteristics
@@ -63,16 +59,16 @@ Re = \frac{\rho V c}{\mu}
 $$
 
 Where:  
-- ρ = air density (kg/m³)  
-- V = flow velocity (m/s)  
-- c = chord length (m)  
-- μ = dynamic viscosity (Pa·s)  
+- $$\rho$$ = air density (kg/m³)  
+- $$V$$ = flow velocity (m/s)  
+- $$c$$ = chord length (m)  
+- $$\mu$$ = dynamic viscosity (Pa·s)  
 
 ### Ways to Change Reynolds Number (Re) for Same Aerofoil:
-- **Change Flow Velocity (V)** → Faster speed = higher Re.  
-- **Change Chord Length (c)** → Larger chord = higher Re. (Model scale tests → lower Re).  
-- **Change Air Density (ρ)** → Sea level (higher Re) vs. high altitude (lower Re).  
-- **Change Air Viscosity (μ)** → Warmer air = higher μ = lower Re. Colder air = lower μ = higher Re.  
+- **Change Flow Velocity ($$V$$)** → Faster speed = higher Re.  
+- **Change Chord Length ($$c$$)** → Larger chord = higher Re. (Model scale tests → lower Re).  
+- **Change Air Density ($$\rho$$)** → Sea level (higher Re) vs. high altitude (lower Re).  
+- **Change Air Viscosity ($$\mu$$)** → Warmer air = higher $$\mu$$ = lower Re. Colder air = lower $$\mu$$ = higher Re.  
 
 At **cruise**, Re is in the **millions** (turbulent flow).  
 At **model scale** (e.g., chord = 0.15 m, speed = 20 m/s), Re is much lower, affecting stall/lift/drag behaviour.  
@@ -91,3 +87,4 @@ I chose the **NACA 2412** profile because:
 
 
 ---
+
